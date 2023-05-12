@@ -1,0 +1,192 @@
+.navber{
+    flex-direction: row;
+    position:-webkit-sticky ;
+    position: sticky;
+    top: 0;
+    
+    z-index: 100;
+}
+.navber ul{
+    flex-direction: row;
+}
+.nav{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-evenly;
+}
+.navber li{
+    margin: 0 1rem;
+  font-size: 1.6rem;
+}
+.navber-heading{
+   margin-left: 4rem;
+}
+.btn{
+    margin-right: 4rem;
+    padding: 1rem 2rem;
+    background-color: black;
+    color: rgb(255, 255, 255);
+    border: 0.1rem solid white;
+}
+.btn:hover{
+    color: black;
+}
+.first-desc{
+    width: 55%;
+
+}
+.description-heading{
+    visibility: visible;
+   }
+   .p{
+    visibility: hidden;
+   }
+   .descreption-img img{
+  height: 350px;
+  width: 300px;
+   
+}
+.description{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    
+
+}
+#description-section{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.description-heading h1{
+    font-size: 4rem;
+    color: white;
+}
+.description-heading{
+    flex: 3;
+    justify-self: end;
+    text-align: right;
+}
+.descreption-img{
+    flex: 3;
+  
+
+}
+.descreption-btn{
+    margin: 1rem auto;
+}
+.description-desc p{
+    margin-bottom: -2rem;
+}
+.description-desc h3{
+margin-bottom: -2rem;
+margin-top: -2rem;
+}
+.description-desc{
+    flex: 3;
+   text-align: left;
+   margin-right: 4rem;
+}
+#description-section p{
+font-size: 2rem;
+}
+
+.rating-section{
+    flex-direction: row;
+    margin: auto;
+    width: 80%;
+}
+.rating-description{
+    flex: 5;
+}
+.rating-progress{
+    flex: 5;
+    width: 70%;
+}
+.r-p{
+    text-align: center;
+ margin: auto;
+    width: 70%;
+    line-height: 2.5rem;
+    margin-top: 2.5rem;
+}
+.work-section{
+    flex-direction: row;
+}
+.work-heading{
+    font-size: 4rem;
+}
+.work-section img:hover{
+    transform: scale(0.9);
+}
+/* work section ends here  */
+
+
+/* price section start  */
+
+.price-section{
+    flex-direction: row;
+    width: 80%;
+    text-align: center;
+    justify-content: space-evenly;
+}
+#price-btn{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    align-self: center;
+    margin-bottom: 1rem;
+    width: 40%;
+}
+.price-btn{
+  padding: 1 5rem;
+}
+/* price-section ends here  */
+
+/* contact-form start  */
+.contact-form{
+    flex-direction: row;
+justify-content: space-between;
+gap: 15rem;
+align-items: center;
+text-align: center;
+
+}
+
+#contact-section{
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.contact-btn{
+    padding: 1rem 5rem;
+}
+.contact-input{
+    transition: 0.4s;
+
+}
+.contact-input:hover{
+    transform: scale(1.1);
+    box-shadow: 0.2rem 0.2rem 0.8rem #be2d0c,-0.2rem -0.2rem 0.8rem #60ef00;
+}
+.contact-description{
+    transition: 0.4s;
+    width: 100%;
+
+}
+.contact-description:hover{
+    transform: scale(1.1);
+    box-shadow: 0.2rem 0.2rem 0.8rem #be2d0c,-0.2rem -0.2rem 0.8rem #60ef00;
+}
+#footer-section{
+    flex-direction: row;
+    justify-content: space-between;
+}
+.footer-p{
+    padding-top: 1rem;
+}
+
+/* contact form ends  */
